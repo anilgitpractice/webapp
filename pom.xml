@@ -7,7 +7,6 @@
   <version>1.0-SNAPSHOT</version>
   <name>MyWebApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -16,22 +15,14 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  
   <build>
     <finalName>MyWebApp</finalName>
     <plugins>
-        <!-- Update the maven-war-plugin version -->
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-war-plugin</artifactId>
-            <version>3.3.1</version> <!-- Use the latest version available -->
-        </plugin>
-        
-        <!-- Update the SonarQube Scanner plugin version -->
+        <!-- Add the SonarQube Scanner for Maven plugin -->
         <plugin>
             <groupId>org.sonarsource.scanner.maven</groupId>
             <artifactId>sonar-maven-plugin</artifactId>
-            <version>3.11.0.1841</version> <!-- Use the latest version available -->
+            <version>3.9.0.2184</version> <!-- Use the latest version available -->
         </plugin>
     </plugins>
   </build>
