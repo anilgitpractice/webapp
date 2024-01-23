@@ -20,18 +20,18 @@
   <build>
     <finalName>MyWebApp</finalName>
     <plugins>
-        <!-- Update the maven-war-plugin version to a more recent one -->
+        <!-- Update the maven-war-plugin version -->
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-war-plugin</artifactId>
             <version>3.3.1</version> <!-- Use the latest version available -->
         </plugin>
         
-        <!-- Add the SonarQube Scanner for Maven plugin -->
+        <!-- Update the SonarQube Scanner plugin version -->
         <plugin>
             <groupId>org.sonarsource.scanner.maven</groupId>
             <artifactId>sonar-maven-plugin</artifactId>
-            <version>3.9.0.2184</version> <!-- Use the latest version available -->
+            <version>3.11.0.1841</version> <!-- Use the latest version available -->
         </plugin>
     </plugins>
   </build>
